@@ -1,3 +1,4 @@
+/*高阶组件的参数 */
 import React from 'react';
 import Hoc from './Hoc'
 class HocParams1 extends React.Component {

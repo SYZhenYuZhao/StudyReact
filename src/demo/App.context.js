@@ -1,3 +1,4 @@
+/*Context的基本用法*/ 
 import React, { Component } from 'react';
 // 创建一个 theme Context,  默认 theme 的值为 light
 const ThemeContext = React.createContext('light');

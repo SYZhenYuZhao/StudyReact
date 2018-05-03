@@ -1,3 +1,4 @@
+/*Context多层级组件间传值||方法*/
 import React from 'react'
 // 确保默认值按类型传递
 // createContext() 匹配的属性是 Consumers 所期望的

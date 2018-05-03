@@ -1,3 +1,4 @@
+/*常见的属性传值方法*/ 
 import React, { Component } from 'react';
 
 
