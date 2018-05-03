@@ -1,5 +1,5 @@
 import React, { Component} from 'react'
-function Hoc(HocParams) {
+function Hoc(HocParams,str) {
     class Hoc1 extends Component{
         constructor(props){
             super(props)
@@ -11,11 +11,11 @@ function Hoc(HocParams) {
         componentWillMount() {
             let username = '赵振宇'
             this.setState({
-                username: username
+                username: str
             })
         }
         render() {
-            return <HocParams user={this.state.username}/>
+            return <HocParams username={this.state.username}/>
         }
     }
     return Hoc1
